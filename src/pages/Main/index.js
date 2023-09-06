@@ -14,7 +14,7 @@ export default function Main() {
   useEffect(() => {
     const repoStorage = localStorage.getItem('repos');
 
-    console.log(JSON.parse(repoStorage));
+    // console.log(JSON.parse(repoStorage));
 
     if (repoStorage) {
       setRepositorios(JSON.parse(repoStorage));
